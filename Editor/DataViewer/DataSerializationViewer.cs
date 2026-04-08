@@ -3,8 +3,6 @@
 using System;
 using System.Collections.Generic;
 using System.Reflection;
-using System.Text;
-using NekoLib.Extensions;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 using UnityEditor;
@@ -154,7 +152,7 @@ namespace NekoSerializer
         }
 #endif
 
-        [MenuItem("Tools/Neko Framework/Data Serialization Viewer")]
+        [MenuItem("Tools/Neko Serializer/Data Serialization Viewer")]
         private static void OpenWindow()
         {
             GetWindow<DataSerializationViewer>("Data Serialization Viewer").Show();

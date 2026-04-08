@@ -16,7 +16,7 @@ namespace NekoSerializer
         private SerializedProperty _encryptionKeyProp;
         private SerializedProperty _prettyPrintJsonProp;
 
-        [MenuItem("Tools/Neko Framework/Serializer Settings")]
+        [MenuItem("Tools/Neko Serializer/Settings")]
         public static void ShowWindow()
         {
             var window = GetWindow<SerializerSettingsWindow>("Serializer Settings");
